@@ -6,10 +6,15 @@
 
 FILE=<file_name>
 export FILE
-
-HOST=uploads.androidfilehost.com
-USER=iyke
-PASSWD=HsHXIgOLoRXs
-curl -ftp-pasv -T $FILE ftp://$USER:$PASSWD@$HOST
+hst=uploads.androidfilehost.com
+us=iyke
+key=HsHXIgOLoRXs
+echo "FILE_NAME : $FILE"
+echo " UPLOADER : Zackie Ai"
+echo ""
+echo "FILE_UPLOAD_IN_PROGRESS ..."
+curl -ftp-pasv -T $FILE ftp://$us:$key@$hst
+echo ""
+echo " UPLOAD_COMPLETED !!!"
 
 
