@@ -1,7 +1,5 @@
 #!/usr/bin/bash
 # memberamd @amdserver
-# CREDIT : Nickron Davis
-# 		   : Nana Iyke Quame[me]
 
 
 FILE=<file_name>
